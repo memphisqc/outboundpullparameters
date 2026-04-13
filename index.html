@@ -316,11 +316,10 @@
       <h1>Outbound Pull Parameters</h1>
       <p>
         This page runs fully in the browser. Nothing is stored. Enter the same inputs your spreadsheet uses,
-        and the page will instantly update the timing tables and the MDDB tail lookup.
+        and the page will instantly update the timing tables.
       </p>
       <div class="top-tabs">
         <button class="tab-btn active" data-screen="aircraft-screen">Aircraft Timing</button>
-        <button class="tab-btn" data-screen="mddb-screen">MDDB Lookup</button>
       </div>
     </section>
 
@@ -393,22 +392,6 @@
             <div class="empty-note">If a travel-time match is not found for the selected secondary and gate, the outbound pull time column will stay blank.</div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section id="mddb-screen" class="screen">
-      <div class="lookup-layout">
-        <div class="panel">
-          <div class="panel-head">MDDB Tail Lookup</div>
-          <div class="panel-body">
-            <div class="field">
-              <label for="tailInput">Tail Number</label>
-              <input id="tailInput" type="text" inputmode="numeric" placeholder="Enter tail number" />
-            </div>
-            <div class="tail-status" id="tailStatus">Enter a tail number to populate the lookup.</div>
-          </div>
-        </div>
-        <div class="lookup-sections" id="lookupSections"></div>
       </div>
     </section>
   </div>
